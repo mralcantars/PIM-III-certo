@@ -1,0 +1,52 @@
+{
+    "paciente123": {
+        "recebidas": [
+            {
+                "remetente": "Equipe Clínica",
+                "texto": "Seu exame está pronto para revisão.",
+                "data": "08/09/2025 10:15"
+            }
+        ],
+        "enviadas": [
+            {
+                "destinatario": "SAC",
+                "texto": "Consulta confirmada para 12/09.",
+                "data": "06/09/2025 09:30"
+            }
+        ]
+    },
+    "paciente456": {
+        "recebidas": [],
+        "enviadas": []
+    },
+    "234.565.432-14": {
+        "recebidas": [],
+        "enviadas": [
+            {
+                "destinatario": "SAC",
+                "texto": "que dia é meu exame",
+                "data": "16/09/2025 10:28"
+            }
+        ]
+    },
+    "234.123.678-94": {
+        "recebidas": [],
+        "enviadas": [
+            {
+                "destinatario": "medico",
+                "texto": "devo tomar remedio as 23h?",
+                "data": "17/09/2025 11:44"
+            }
+        ]
+    },
+    "243.567.890-34": {
+        "recebidas": [],
+        "enviadas": [
+            {
+                "destinatario": "medico",
+                "texto": "hhhhuiiobbbhui",
+                "data": "17/09/2025 12:31"
+            }
+        ]
+    }
+}
