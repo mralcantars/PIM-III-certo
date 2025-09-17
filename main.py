@@ -6,6 +6,7 @@ from usuarios.mensagens import mostrar_mensagens
 from agenda.compromissos import menu_agenda
 from usuarios.notificacoes import mostrar_notificacoes
 from usuarios.privacidade import menu_privacidade
+from plataforma_medicos.medicos import autenticar_medico, exibir_quadro_acompanhamento
 
 
 print("Bem-vindo a Clínica VitalCode\n"
@@ -63,3 +64,11 @@ if usuario_encontrado and usuario_encontrado["tipo"] == "paciente":
             break
         else:
             print("❌ Opção inválida.")
+
+def main():
+    medico = autenticar_medico()  # chama a função do módulo medicos.py
+    if medico:
+        exibir_quadro_acompanhamento(medico)  # exibe quadro do médico
+
+if __name__ == "__main__":
+    main()
